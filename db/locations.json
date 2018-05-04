@@ -5,6 +5,18 @@
       "locationAddress": "19 worship center dr",
       "locationImage": "http://cdn.spectrumbrands.com/~/media/Pet/Tetra/Images/Learning%20Centers/Fish%20Learning%20Center/Gold_Dropsy.png",
       "time": "Morning"
+    },
+    {
+      "name": "Waffle House",
+      "locationAddress": "10 sharon road",
+      "locationImage": "http://cdn.spectrumbrands.com/~/media/Pet/Tetra/Images/Learning%20Centers/Fish%20Learning%20Center/Gold_Dropsy.png",
+      "time": "Afternoon"
+    },
+    {
+      "name": "Burger King",
+      "locationAddress": "199 Nathan circle dr",
+      "locationImage": "http://cdn.spectrumbrands.com/~/media/Pet/Tetra/Images/Learning%20Centers/Fish%20Learning%20Center/Gold_Dropsy.png",
+      "time": "Evening"
     }
   ]
 }

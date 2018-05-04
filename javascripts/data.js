@@ -1,9 +1,9 @@
 const loadEx = require('./ex');
-const writeEx = require('./dom');
+const dom = require('./dom');
 
 const whenExLoad = (data) => {
   console.log('data', data);
-  $('#ex').append(writeEx(data.ex));
+  $('#ex').append(dom.writeEx(data.ex));
 
 };
 

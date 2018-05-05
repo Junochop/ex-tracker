@@ -1,4 +1,4 @@
-const buttonAction = () => {
+const timebuttonAction = () => {
 
   $('#morning').click(() => {
 
@@ -34,6 +34,24 @@ const buttonAction = () => {
     darkCard.show();
     otherCard3.hide();
   });
+
+};
+
+const keyPress = () => {
+
+  $('#inputField').keypress((e) => {
+    const key = e.keyCode;
+    const search = $('#inputField').val();
+    if (key === 13) {
+      console.log(search);
+    }
+  });
+};
+
+const buttonAction = () => {
+  timebuttonAction();
+  keyPress();
+
 };
 
 module.exports = buttonAction;

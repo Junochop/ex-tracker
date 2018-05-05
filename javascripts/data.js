@@ -1,6 +1,7 @@
 const loadEx = require('./ex');
 const loadLocation = require('./locations');
 const dom = require('./dom');
+const buttonAction = require('./events');
 
 const whenExLoad = (data) => {
   console.log('data', data);
@@ -25,6 +26,7 @@ const whenLocationDontLoad = (error) => {
 const initializer = () => {
   loadEx(whenExLoad, whenExDontLoad);
   loadLocation(whenLocationLoad, whenLocationDontLoad);
+  buttonAction();
 
 };
 

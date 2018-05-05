@@ -3,19 +3,19 @@
     {
       "name": "Chic-fila",
       "locationAddress": "19 worship center dr",
-      "locationImage": "http://cdn.spectrumbrands.com/~/media/Pet/Tetra/Images/Learning%20Centers/Fish%20Learning%20Center/Gold_Dropsy.png",
+      "locationImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8GiP4XtDnk253CZGH0zPofQ4M2x2QNtzPyt4bg1bYc6vOM1QNMA",
       "time": "Morning"
     },
     {
       "name": "Waffle House",
       "locationAddress": "10 sharon road",
-      "locationImage": "http://cdn.spectrumbrands.com/~/media/Pet/Tetra/Images/Learning%20Centers/Fish%20Learning%20Center/Gold_Dropsy.png",
+      "locationImage": "https://static.lakana.com/nxsglobal/feedsite/photo/2018/04/23/Waffle_House_Shooting_69179_40493964_ver1.0_640_360.jpg",
       "time": "Afternoon"
     },
     {
       "name": "Burger King",
       "locationAddress": "199 Nathan circle dr",
-      "locationImage": "http://cdn.spectrumbrands.com/~/media/Pet/Tetra/Images/Learning%20Centers/Fish%20Learning%20Center/Gold_Dropsy.png",
+      "locationImage": "https://s3-media3.fl.yelpcdn.com/bphoto/yVhj6oy6oS72ijEyZ_vGCQ/ls.jpg",
       "time": "Evening"
     }
   ]

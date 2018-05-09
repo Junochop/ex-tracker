@@ -39,6 +39,12 @@ const timebuttonAction = () => {
     otherCard3.hide();
   });
 
+  $('#reset').click(() => {
+    const allCard = $('.locationcard');
+
+    allCard.show();
+  });
+
 };
 
 const keyPress = () => {

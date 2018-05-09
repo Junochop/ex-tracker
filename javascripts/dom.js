@@ -6,7 +6,7 @@ const writeEx = (exes) => {
     domString += `<img src="${exx.imageSoure}" alt="" width="40%">`;
     domString += `<div class="caption">`;
     domString += `<h3 id="thumbnail-label">${exx.name}</h3>`;
-    domString += `<p>${exx.flaws}</p>`;
+    domString += `<p>FLAWS: ${exx.flaws}</p>`;
     domString += `</div>`;
     domString += `</div>`;
     domString += `</div>`;

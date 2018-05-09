@@ -8,9 +8,6 @@ const writeEx = (exes) => {
     domString += `<h3 id="thumbnail-label">${exx.name}</h3>`;
     domString += `<p>${exx.flaws}</p>`;
     domString += `</div>`;
-    domString += `<div class="caption card-footer">`;
-    domString += `<button class="add btn btn-danger">danger time</button>`;
-    domString += `</div>`;
     domString += `</div>`;
     domString += `</div>`;
   });
@@ -21,7 +18,7 @@ const writeEx = (exes) => {
 const writeLocation = (locations) => {
   let domString = '';
   locations.forEach(location => {
-    domString += `<div class="${location.time} locationcard col-md-6 col-md-offset-3">`;
+    domString += `<div class="${location.time} locationcard col-md-6">`;
     domString += `<div class="thumbnail">`;
     domString += `<img src="${location.locationImage}" alt="" width="40%">`;
     domString += `<div class="caption">`;

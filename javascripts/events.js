@@ -1,3 +1,7 @@
+jQuery.expr[':'].icontains = function (a, i, m) {
+  return jQuery(a).text().toUpperCase()
+    .indexOf(m[3].toUpperCase()) >= 0;
+};
 const timebuttonAction = () => {
 
   $('#morning').click(() => {
@@ -35,6 +39,12 @@ const timebuttonAction = () => {
     otherCard3.hide();
   });
 
+  $('#reset').click(() => {
+    const allCard = $('.locationcard');
+
+    allCard.show();
+  });
+
 };
 
 const keyPress = () => {
@@ -44,6 +54,9 @@ const keyPress = () => {
     const search = $('#inputField').val();
     if (key === 13) {
       console.log(search);
+      $('.locationcard').not($(`:icontains(${search})`)).hide();
+
+      $('#inputField').val('');
     }
   });
 };
